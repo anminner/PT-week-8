@@ -1,4 +1,4 @@
-// Classes: Sandwich & Menu
+// Use at least 2 classes
 class Sandwich {
     constructor(name, ingredients) {
       this.name = name;
@@ -6,13 +6,13 @@ class Sandwich {
     }
   }
   
-//   Contains array
+//   Use at least one array
   class Menu {
     constructor() {
       this.sandwiches = [];
     }
   
-    // Options to create, view & delete elements
+    // Menu options to create, view & delete elements
     createSandwich(name, ingredients) {
       const sandwich = new Sandwich(name, ingredients);
       this.sandwiches.push(sandwich);
